@@ -17,7 +17,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color:  #8f1d00;
+  scroll-behavior: smooth;  /* Thanks Chris Coyier @ CSS-tricks.com */
 }
 
 /*
@@ -123,8 +124,13 @@ p {
   color: #fcfcfc;
 }
 
-.accent-color {
+.accent-color, .card-text {
   color:   #33251f;  /* bistre */
+}
+
+.accent-text, h3.card-title a, div.more a {
+  color: #8f1d00;  
+  font-size: 1.5em;
 }
 
 /* Navbar */
@@ -143,6 +149,7 @@ p {
 */
 .container a, .nav-link {
   color: #EFAA1C;  
+  text-decoration: none;
 }
 
 .nav-bg-color {
@@ -230,6 +237,46 @@ a.menu-link {
   font-size: 1.5em;
   margin: 3em;
 }
+
+#menu {
+  width: 100%;
+  height: 100vh;
+  background-color:  #8f1d00;
+ /* background: url("../img/mayoorNight.jpg") top center no-repeat fixed; 
+  background-size: cover; */
+}
+
+.section-title h2 {
+  font-size: 4em;
+  margin-right: 1.5em;
+  font-family: "Khand", "Lato", sans-serif;
+}
+
+.section-title p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fcfcfc;
+  padding: 2em;
+  text-align: center;
+}
+
+.section-title div.row {
+  padding-left: 3vw;
+}
+
+div.more a:hover {
+  color:  #aa2200;
+}
+
+div.card {
+  margin: 1em;
+  padding: 1em;
+}
+
+#mainMessage {
+  font-size: 3rem;
+}
+
 /*
 @media only screen 
   and (min-device-width: 360px) 
