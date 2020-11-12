@@ -292,7 +292,7 @@ a.menu-link {
     .navbar-brand {
       font-weight: bold;
       font-size: 1em;
-      padding-top: .5em;
+      margin-top: .5em;
   }
 
   #hero-logo-img {
