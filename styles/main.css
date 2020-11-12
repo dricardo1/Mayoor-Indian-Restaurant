@@ -286,7 +286,8 @@ div.more a:hover {
 }
 
 #mainMessage {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 2em;
 }
 
 /*
