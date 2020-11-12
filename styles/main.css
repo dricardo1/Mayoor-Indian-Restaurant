@@ -295,7 +295,12 @@ a.menu-link {
       margin-top: .5em;
   }
 
-  #hero-logo-img {
-    width: 82px;
-    height: 82px;
-  }
+    #main-navbar {
+      margin-top: .3em;
+    }
+
+    #hero-logo-img {
+      width: 82px;
+      height: 82px;
+    }
+}
