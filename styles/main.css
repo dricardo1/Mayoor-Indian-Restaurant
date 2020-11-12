@@ -209,7 +209,7 @@ h2.font-weight-bold {
 
 #hero .hero-container {
   display: table-cell;
-  background: rgba(0, 0, 0, 0.3) ;
+  background: rgba(0, 0, 0, 0.5) ;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -219,6 +219,16 @@ h2.font-weight-bold {
 .cta a {
   padding: .5em 2em;
   font-size: 1.25em;
+}
+
+div.cta {
+  margin: 0 auto 2em auto;
+}
+
+a.menu-link {
+  color: #fcfcfc;
+  font-size: 1.5em;
+  margin: 3em;
 }
 
 @media only screen 
