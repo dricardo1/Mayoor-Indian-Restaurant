@@ -1,4 +1,4 @@
-var messageArray = ["Closed Due to Circumstance", "Explore Authentic Indian Cuisine","Flavors as diverse as India!","Closed Due to Circumstance","Savor a pallette of fine tastes..."];
+var messageArray = ["Closed Due to Circumstance", "Authentic Indian Cuisine","Flavors as diverse as India!","Closed Due to Circumstance","Savor a pallette of fine tastes..."];
 var messageIndex = 0;
 
 function changeMessage() {
