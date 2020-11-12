@@ -246,6 +246,17 @@ a.menu-link {
   background-size: cover; */
 }
 
+.card-img {
+  width: calc(100% + 10px);
+  margin: -2px 0px 0px -6px;
+  overflow: hidden;
+  /* z-index: 9; */
+}
+
+.card {
+  margin-bottom: 10vh !important;
+}
+
 .section-title h2 {
   font-size: 4em;
   margin-right: 1.5em;
@@ -268,10 +279,10 @@ div.more a:hover {
   color:  #aa2200;
 }
 
-div.card {
+/* div.card {
   margin: 1em;
   padding: 1em;
-}
+} */
 
 #mainMessage {
   font-size: 3rem;
