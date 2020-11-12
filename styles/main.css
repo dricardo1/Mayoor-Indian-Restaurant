@@ -242,15 +242,21 @@ a.menu-link {
   width: 100%;
   height: 100vh;
   background-color:  #8f1d00;
- /* background: url("../img/mayoorNight.jpg") top center no-repeat fixed; 
-  background-size: cover; */
+
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color:  #8f1d00;
+    background: url("../img/mayoorNight.jpg") top center no-repeat fixed;
+    background-size: cover;  
 }
 
 .card-img {
   width: calc(100% + 10px);
   margin: -2px 0px 0px -6px;
   overflow: hidden;
-  /* z-index: 9; */
 }
 
 .card {
@@ -259,7 +265,7 @@ a.menu-link {
 
 .section-title h2 {
   font-size: 4em;
-  margin-right: 1.5em;
+  margin-right: 2em;
   font-family: "Khand", "Lato", sans-serif;
 }
 
@@ -267,7 +273,7 @@ a.menu-link {
   font-size: 1.5em;
   font-weight: bold;
   color: #fcfcfc;
-  padding: 2em;
+  padding: 0 0 2em 0;
   text-align: center;
 }
 
@@ -278,11 +284,6 @@ a.menu-link {
 div.more a:hover {
   color:  #aa2200;
 }
-
-/* div.card {
-  margin: 1em;
-  padding: 1em;
-} */
 
 #mainMessage {
   font-size: 3rem;
