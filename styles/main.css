@@ -168,7 +168,7 @@ div.more a {
   background-color: #efaa1c !important;
   color: #222 !important;
   font-weight: bold;
-  font-size: 1.15em;
+  font-size: 1em;
   padding: 0.5em;
   border-radius: 9px;
 }
@@ -345,6 +345,10 @@ h2#main-title {
   color: #EFAA1C;
 }
 
+#contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
+  margin-top: -4vh;
+}
+
 div.more a:hover {
   color: #aa2200;
 }
@@ -401,10 +405,10 @@ div.contact-title h2 {
     margin-top: 0.3em;
   }
 
-  #hero-logo-img {
-    width: 82px;
-    height: 82px;
-  }
+.logo-img {
+  width: 62px;
+  height: 62px;
+}
   
   #contact div.container {
     margin-top: 10vh;
