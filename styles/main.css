@@ -158,7 +158,7 @@ p {
 
 .btn-warning {
   background-color: #EFAA1C !important;
-  color: #33251f;
+  color: #222 !important;
   font-weight: bold;
   font-size: 1.5em;  
   padding: .5em;
@@ -168,7 +168,7 @@ p {
 .btn-warning:hover {
   background-color: goldenrod !important;
   text-decoration: none;
-  color: #222;
+  color: #222 !important;
 }
 
 .navbar-brand {
@@ -199,7 +199,7 @@ p {
 }
 
 #hero .hero-logo {
-  margin: -10em auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 100%;
 }
 
@@ -238,19 +238,16 @@ a.menu-link {
   margin: 3em;
 }
 
-#menu {
-  width: 100%;
-  height: 100vh;
-  background-color:  #8f1d00;
-
-}
-
-.contact {
+#contact {
     width: 100%;
     height: 100vh;
     background-color:  #8f1d00;
-    background: url("../img/mayoorNight.jpg") top center no-repeat fixed;
-    background-size: cover;  
+    background-image: url("../img/mayoorNight.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 }
 
 .card-img {
@@ -263,9 +260,13 @@ a.menu-link {
   margin-bottom: 10vh !important;
 }
 
+#contact.section-title {
+  margin: 15vh 0 0 2vh;
+}
+
 .section-title h2 {
   font-size: 4em;
-  margin-right: 1.6em;
+  margin: 1em 1.5em 0 0;
   font-family: "Khand", "Lato", sans-serif;
 }
 
@@ -290,43 +291,19 @@ div.more a:hover {
   margin: 2em;
 }
 
-/*
-@media only screen 
-  and (min-device-width: 360px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  { 
+div.contact-title h2 {
+    font-size: 4em;
+    font-family: "Khand", "Lato", sans-serif;
+}
 
-    #hero {
-      width: 100%;
-      height: 100vh;
-      background-image: url("../img/indian5.jpg");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+.contact-title p {
+  font-size: 1em;
+}
 
-    .hero-logo h1 {
-      font-size: 4em;
-      margin: auto;
-    }
+.contact-h2 {
+  margin: 1em 1em 0 0;
+}
 
-    .navbar-brand img {
-      margin-right: .25rem;
-    }
-
-    .navbar-brand {
-      font-weight: bold;
-      font-size: 1em;
-  }
-
-  #hero-logo-img {
-    width: 82px;
-    height: 82px;
-  }
-
-} 
-*/
 @media only screen 
   and (max-device-width: 1024px) 
   { 
