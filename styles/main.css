@@ -125,6 +125,10 @@ p {
   color: #fcfcfc;
 }
 
+.gold {
+  color: #EFAA1C;
+}
+
 .accent-color,
 .card-text {
   color: #33251f; /* bistre */
@@ -316,11 +320,15 @@ h2#main-title {
   text-align: center;
 }
 
+#gold-p {
+  color: #EFAA1C;
+}
+
 .image-section h2 {
   font-size: 2.5em;
   font-weight: bold;
   color: #fcfcfc;
-  opacity: .8;
+  opacity: .9;
   padding: 2em 0 2em 4em;
   text-align: center;
 }
@@ -334,6 +342,7 @@ h2#main-title {
   font-size: 2em;
   /* margin: 2em 1.5em 0 0; */
   font-family: "Khand", "Lato", sans-serif;
+  color: #EFAA1C;
 }
 
 div.more a:hover {
