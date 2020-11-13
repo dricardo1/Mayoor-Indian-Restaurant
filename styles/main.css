@@ -269,8 +269,7 @@ a.menu-download-link {
   clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
 }
 
-#contact-padding, #contact > div > div:nth-child(2) > div:nth-child(1) > div > p,
- #contact > div > div:nth-child(2) > div:nth-child(2) > div > p {
+#contact-padding {
   padding-right: 5vw;
 }
 
@@ -308,7 +307,7 @@ a.menu-download-link {
 }
 
 #contact div.container {
-  padding-left: 12vw;
+  padding: 3vw;
 }
 
 h2#main-title {
@@ -319,6 +318,14 @@ h2#main-title {
 
 .section-title p {
   font-size: 1.5em;
+  font-weight: bold;
+  color: #fcfcfc;
+  padding: 0 0 2em 0;
+  text-align: center;
+}
+
+#contact-padding p {
+  font-size: 1em;
   font-weight: bold;
   color: #fcfcfc;
   padding: 0 0 2em 0;
@@ -373,7 +380,7 @@ div.contact-title h2 {
 }
 
 #contact-heading.contact-h1 {
-  margin: 1em 1em 0 0;
+  margin: 0 .75em 0 0;
   font-size: 4em !important;
 }
 
@@ -416,13 +423,13 @@ div.contact-title h2 {
 }
   
   #contact div.container {
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
 }
 
 @media (min-width: 370px) and (max-width: 700px) {
     
   #contact div.container {
-    margin-top: 0;
+    margin-top: 5vh;
   }
 }
