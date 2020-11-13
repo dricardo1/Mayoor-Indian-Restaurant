@@ -17,8 +17,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:  #8f1d00;
-  scroll-behavior: smooth;  /* Thanks Chris Coyier @ CSS-tricks.com */
+  background-color: #8f1d00;
+  scroll-behavior: smooth; /* Thanks Chris Coyier @ CSS-tricks.com */
 }
 
 /*
@@ -102,7 +102,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #8f1d00;  /* Kobe */      /* #aa2200;  rufous */      /* #C30B35 shiraz */ 
+  background-color: #8f1d00; /* Kobe */ /* #aa2200;  rufous */ /* #C30B35 shiraz */
   color: #fcfcfc;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,9 +113,10 @@ body {
 h1,
 h2,
 h3,
-h4, nav {
+h4,
+nav {
   font-family: "Khand", sans-serif;
-  color: #fcfcfc;  /* bistre */
+  color: #fcfcfc; /* bistre */
 }
 
 p {
@@ -124,17 +125,19 @@ p {
   color: #fcfcfc;
 }
 
-.accent-color, .card-text {
-  color:   #33251f;  /* bistre */
+.accent-color,
+.card-text {
+  color: #33251f; /* bistre */
 }
 
-.accent-text, h3.card-title a, div.more a {
-  color: #8f1d00;  
+.accent-text,
+h3.card-title a,
+div.more a {
+  color: #33251f;
   font-size: 1.5em;
 }
 
 /* Navbar */
-
 
 /*
 .nav-link:active {
@@ -147,8 +150,9 @@ p {
 }
 
 */
-.container a, .nav-link {
-  color: #EFAA1C;  
+.container a,
+.nav-link {
+  color: #efaa1c;
   text-decoration: none;
 }
 
@@ -157,11 +161,11 @@ p {
 }
 
 .btn-warning {
-  background-color: #EFAA1C !important;
+  background-color: #efaa1c !important;
   color: #222 !important;
   font-weight: bold;
-  font-size: 1.5em;  
-  padding: .5em;
+  font-size: 1.25em;
+  padding: 0.5em;
   border-radius: 9px;
 }
 
@@ -181,7 +185,7 @@ p {
 }
 
 .fa-bars {
-  color: #EFAA1C;
+  color: #efaa1c;
 }
 
 .nav-link:hover {
@@ -205,7 +209,7 @@ p {
 
 .hero-logo h1 {
   font-size: 6em;
-  margin: 0 .5em 0 auto;
+  margin: 0 0.5em 0 auto;
 }
 
 h2.font-weight-bold {
@@ -216,7 +220,7 @@ h2.font-weight-bold {
 
 #hero .hero-container {
   display: table-cell;
-  background: rgba(0, 0, 0, 0.5) ;
+  background: rgba(0, 0, 0, 0.5);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -224,7 +228,7 @@ h2.font-weight-bold {
 }
 
 .cta a {
-  padding: .5em 2em;
+  padding: 0.5em 2em;
   font-size: 1.25em;
 }
 
@@ -239,15 +243,15 @@ a.menu-link {
 }
 
 #contact {
-    width: 100%;
-    height: 100vh;
-    background-color:  #8f1d00;
-    background-image: url("../img/mayoorNight.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-attachment: fixed; 
-    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+  width: 100%;
+  height: 100vh;
+  background-color: #8f1d00;
+  background-image: url("../img/mayoorNight.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
 }
 
 .card-img {
@@ -283,7 +287,7 @@ a.menu-link {
 }
 
 div.more a:hover {
-  color:  #aa2200;
+  color: #aa2200;
 }
 
 #mainMessage {
@@ -292,8 +296,8 @@ div.more a:hover {
 }
 
 div.contact-title h2 {
-    font-size: 4em;
-    font-family: "Khand", "Lato", sans-serif;
+  font-size: 4em;
+  font-family: "Khand", "Lato", sans-serif;
 }
 
 .contact-title p {
@@ -304,40 +308,37 @@ div.contact-title h2 {
   margin: 1em 1em 0 0;
 }
 
-@media only screen 
-  and (max-device-width: 1024px) 
-  { 
-
-    #hero {
-      width: 100%;
-      height: 100vh;
-      background-image: url("../img/indian5.jpg");
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .hero-logo h1 {
-      font-size: 4em;
-      margin: auto;
-    }
-
-    .navbar-brand img {
-      margin-right: .25rem;
-    }
-
-    .navbar-brand {
-      font-weight: bold;
-      font-size: 1em;
-      margin-top: .5em;
+@media only screen and (max-device-width: 1024px) {
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/indian5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-    #main-navbar {
-      margin-top: .3em;
-    }
+  .hero-logo h1 {
+    font-size: 4em;
+    margin: auto;
+  }
 
-    #hero-logo-img {
-      width: 82px;
-      height: 82px;
-    }
+  .navbar-brand img {
+    margin-right: 0.25rem;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+
+  #main-navbar {
+    margin-top: 0.3em;
+  }
+
+  #hero-logo-img {
+    width: 82px;
+    height: 82px;
+  }
 }
