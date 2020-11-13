@@ -298,6 +298,10 @@ a.menu-download-link {
   margin: 15vh 0 0 2vh;
 }
 
+#contact div.container {
+  padding-left: 12vw;
+}
+
 h2#main-title {
   font-size: 4em;
   margin: 1em 1.1em 0 0;
@@ -316,9 +320,11 @@ h2#main-title {
   font-size: 2.5em;
   font-weight: bold;
   color: #fcfcfc;
-  padding: 2em 0 2em 0;
+  opacity: .8;
+  padding: 2em 0 2em 4em;
   text-align: center;
 }
+.
 
 .section-title div.row {
   padding-left: 3vw;
