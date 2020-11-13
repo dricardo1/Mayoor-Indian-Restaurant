@@ -260,7 +260,7 @@ a.menu-download-link {
   width: 100%;
   height: 100vh;
   background-color: #8f1d00;
-  background-image: url("../img/mayoorNight.jpg");
+  background-image: url("../img/mayoorNight.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,7 +275,7 @@ a.menu-download-link {
   margin: 8vh auto 0 auto;
   /* padding: 1vh 0; */
   background-color: #8f1d00;
-  background-image: url(../img/mayoorEnter-01.jpg);
+  background-image: url("../img/mayoorEnter-01.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -380,7 +380,7 @@ div.contact-title h2 {
   #hero {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/indian5.jpg");
+    background-image: url("../img/indian5.webp");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
