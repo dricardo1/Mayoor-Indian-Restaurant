@@ -164,7 +164,7 @@ div.more a {
   background-color: #efaa1c !important;
   color: #222 !important;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.15em;
   padding: 0.5em;
   border-radius: 9px;
 }
@@ -306,6 +306,10 @@ div.contact-title h2 {
 
 .contact-h2 {
   margin: 1em 1em 0 0;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 2rem!important;
 }
 
 @media only screen and (max-device-width: 1024px) {
