@@ -269,7 +269,8 @@ a.menu-download-link {
   clip-path: polygon(0 10%, 100% 2%, 100% 90%, 0 100%);
 }
 
-#contact-padding, #contact > div > div:nth-child(2) > div:nth-child(1) > div > h5 {
+#contact-padding, #contact > div > div:nth-child(2) > div:nth-child(1) > div > h5,
+ #contact > div > div:nth-child(2) > div:nth-child(2) > div > p {
   padding-right: 5vw;
 }
 
