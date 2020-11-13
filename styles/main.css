@@ -268,9 +268,9 @@ a.menu-link {
   margin: 15vh 0 0 2vh;
 }
 
-.section-title h2 {
+#main-title h2 {
   font-size: 4em;
-  margin: 1em 1.5em 0 0;
+  margin: 2em 1.5em 0 0;
   font-family: "Khand", "Lato", sans-serif;
 }
 
@@ -284,6 +284,12 @@ a.menu-link {
 
 .section-title div.row {
   padding-left: 3vw;
+}
+
+#contact-section {
+  font-size: 2em;
+  /* margin: 2em 1.5em 0 0; */
+  font-family: "Khand", "Lato", sans-serif;
 }
 
 div.more a:hover {
@@ -304,8 +310,9 @@ div.contact-title h2 {
   font-size: 1em;
 }
 
-.contact-h2 {
+#contact-heading.contact-h1 {
   margin: 1em 1em 0 0;
+  font-size: 4em !important;
 }
 
 .mb-5, .my-5 {
@@ -344,5 +351,16 @@ div.contact-title h2 {
   #hero-logo-img {
     width: 82px;
     height: 82px;
+  }
+  
+  #contact div.container {
+    margin-top: 10vh;
+  }
+}
+
+@media (min-width: 370px) and (max-width: 700px) {
+    
+  #contact div.container {
+    margin-top: 0;
   }
 }
