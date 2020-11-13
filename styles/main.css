@@ -340,7 +340,7 @@ h2#main-title {
 
 #contact-section {
   font-size: 2em;
-  /* margin: 2em 1.5em 0 0; */
+  margin: 1em auto 0 auto !important;
   font-family: "Khand", "Lato", sans-serif;
   color: #EFAA1C;
 }
