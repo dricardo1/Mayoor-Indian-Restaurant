@@ -5,13 +5,12 @@ function changeMessage() {
 	// now grab the message and change it.
 	let newMessage = messageArray[messageIndex];
 	let messageElement = document.getElementById("mainMessage");
-	messageElement.innerHTML = newMessage;
+	messageElement.textContent = newMessage;
 	messageIndex++;
 	if (messageIndex >= messageArray.length) {
 		messageIndex = 0;
 	}
+	console.log("WORKETH");
 }
 
-window.onload = function() {
-	setInterval(changeMessage, 4000);
-};
+window.onload = () => setInterval(changeMessage, 4000);
