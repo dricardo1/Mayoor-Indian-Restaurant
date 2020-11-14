@@ -1,10 +1,10 @@
-var messageArray = ["Closed Due to Circumstances", "Authentic Indian Cuisine","Flavors as diverse as India!","Closed Due to Circumstances","Savour a pallette of fine tastes..."];
-var messageIndex = 0;
+let messageArray = ["Closed Due to Circumstances","Flavors as diverse as India!", "Authentic Indian Cuisine","Closed Due to Circumstances","Savour a pallette of fine tastes..."];
+let messageIndex = 0;
 
 function changeMessage() {
 	// now grab the message and change it.
-	var newMessage = messageArray[messageIndex];
-	var messageElement = document.getElementById("mainMessage");
+	let newMessage = messageArray[messageIndex];
+	let messageElement = document.getElementById("mainMessage");
 	messageElement.innerHTML = newMessage;
 	messageIndex++;
 	if (messageIndex >= messageArray.length) {
