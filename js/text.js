@@ -10,7 +10,6 @@ function changeMessage() {
 	if (messageIndex >= messageArray.length) {
 		messageIndex = 0;
 	}
-	console.log("WORKETH");
 }
 
 window.onload = () => setInterval(changeMessage, 4000);
