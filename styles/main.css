@@ -418,6 +418,9 @@ div.contact-title h2 {
   #contact div.container {
     margin-top: 8vh;
   }
+
+#donar {
+  font-size: .5em;
 }
 
 @media (min-width: 370px) and (max-width: 700px) {
